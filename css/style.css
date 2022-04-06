@@ -187,7 +187,9 @@ header {
 }
 
 .masterclass-container__right__accomodation-check__green-check {
-  height: 3vh;
+  height: 1.5vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .masterclass-container__right__accomodation-check__span {
@@ -214,5 +216,110 @@ header {
   background-color: #002c89;
   padding: 10px 28px;
   border-radius: 4px;
+}
+
+.become-container {
+  background-color: #66daf92b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.become-container__description {
+  margin-left: 7%;
+  width: 43%;
+}
+
+.become-container__description__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #21455f;
+  margin-top: 12%;
+  margin-bottom: 4%;
+}
+
+.become-container__description__rule {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 157.5%;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+
+.become-container__description__text {
+  margin-top: 3%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.become-container__img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+}
+
+.bootcamp-container {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bootcamp-container__description {
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.bootcamp-container__description__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #21455f;
+  padding-right: 25%;
+  margin-bottom: 5%;
+}
+
+.bootcamp-container__description__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bootcamp-container__description__item__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100%;
+  line-height: 156%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+  margin: 2% 3%;
 }
 /*# sourceMappingURL=style.css.map */

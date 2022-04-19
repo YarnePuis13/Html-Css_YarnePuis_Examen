@@ -3,6 +3,15 @@ html {
   height: 100%;
 }
 
+h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #21455f;
+}
+
 /*=============
     HEADER  
 =============*/
@@ -87,16 +96,6 @@ header {
     margin-left: 7%;
     padding-right: 5%;
     border-right: solid 3px #e1e1e1;
-
-    &__title {
-      width: 100%;
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 140%;
-      color: #21455f;
-    }
 
     &__text {
       margin-top: 5%;
@@ -206,13 +205,6 @@ header {
     width: 43%;
 
     &__title {
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 140%;
-      color: #21455f;
-
       margin-top: 12%;
       margin-bottom: 4%;
     }
@@ -251,6 +243,7 @@ header {
 
 .bootcamp-container {
   margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: row;
 
@@ -259,13 +252,7 @@ header {
     margin-right: 10%;
 
     &__title {
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 140%;
-      color: #21455f;
-      padding-right: 25%;
+      margin-right: 10%;
       margin-bottom: 5%;
     }
 
@@ -284,6 +271,114 @@ header {
         opacity: 0.7;
         margin: 2% 3%;
       }
+    }
+  }
+}
+
+.opt-react-course {
+  background-color: #f9f9f9;
+  padding: 5% 20%;
+
+  &__title {
+    margin-bottom: 2%;
+  }
+
+  &__description {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+
+      &__text {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        opacity: 0.7;
+        margin: 3% 2%;
+      }
+    }
+  }
+}
+
+.breakthrough {
+  background-color: #002c89;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+
+  &__title {
+    color: #ffffff;
+    padding-top: 7%;
+    padding-bottom: 5%;
+  }
+
+  &__description {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.8;
+    padding-bottom: 5%;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      padding: 2% 0;
+
+      &__text {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 139%;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-left: 2%;
+        margin-right: 10%;
+      }
+    }
+  }
+
+  &__footer {
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color: #00094c;
+    padding-top: 3%;
+
+    &__text {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 136%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      padding-bottom: 3%;
     }
   }
 }

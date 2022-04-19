@@ -3,6 +3,15 @@ html {
   height: 100%;
 }
 
+h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #21455f;
+}
+
 /*=============
     HEADER  
 =============*/
@@ -100,16 +109,6 @@ header {
   margin-left: 7%;
   padding-right: 5%;
   border-right: solid 3px #e1e1e1;
-}
-
-.masterclass-container__left__title {
-  width: 100%;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 140%;
-  color: #21455f;
 }
 
 .masterclass-container__left__text {
@@ -235,12 +234,6 @@ header {
 }
 
 .become-container__description__title {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 140%;
-  color: #21455f;
   margin-top: 12%;
   margin-bottom: 4%;
 }
@@ -276,6 +269,7 @@ header {
 
 .bootcamp-container {
   margin-top: 5%;
+  margin-bottom: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,13 +285,7 @@ header {
 }
 
 .bootcamp-container__description__title {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 140%;
-  color: #21455f;
-  padding-right: 25%;
+  margin-right: 10%;
   margin-bottom: 5%;
 }
 
@@ -321,5 +309,129 @@ header {
   color: #000000;
   opacity: 0.7;
   margin: 2% 3%;
+}
+
+.opt-react-course {
+  background-color: #f9f9f9;
+  padding: 5% 20%;
+}
+
+.opt-react-course__title {
+  margin-bottom: 2%;
+}
+
+.opt-react-course__description {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.opt-react-course__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.opt-react-course__container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.opt-react-course__container__item__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+  margin: 3% 2%;
+}
+
+.breakthrough {
+  background-color: #002c89;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+}
+
+.breakthrough__title {
+  color: #ffffff;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.breakthrough__description {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  opacity: 0.8;
+  padding-bottom: 5%;
+}
+
+.breakthrough__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.breakthrough__container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2% 0;
+}
+
+.breakthrough__container__item__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 139%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 2%;
+  margin-right: 10%;
+}
+
+.breakthrough__footer {
+  padding-left: 5%;
+  padding-right: 10%;
+  background-color: #00094c;
+  padding-top: 3%;
+}
+
+.breakthrough__footer__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-bottom: 3%;
 }
 /*# sourceMappingURL=style.css.map */

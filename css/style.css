@@ -26,6 +26,9 @@ header {
   display: flex;
 }
 
+/*===========
+    MAIN  
+===========*/
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,5 +436,438 @@ header {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-bottom: 3%;
+}
+
+.course-details {
+  text-align: center;
+}
+
+.course-details__title {
+  margin-top: 7%;
+  margin-bottom: 4%;
+}
+
+.course-details__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 20px;
+}
+
+.course-details__container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid #002c89;
+  border-radius: 12px;
+  width: 25%;
+  text-align: center;
+}
+
+.course-details__container__item__text {
+  margin-top: 10%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 107%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #002c89;
+  opacity: 0.7;
+}
+
+.course-details__container__item__span {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+  padding-bottom: 7%;
+}
+
+.course-details__price {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffc702;
+  border-radius: 113px;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  margin-left: 44%;
+  margin-right: 44%;
+}
+
+.course-details__price__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.course-details__signUp-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #21455f;
+  margin: 0 20% 3% 20%;
+}
+
+.course-details__btn {
+  background: #002c89;
+  border-radius: 4px;
+  width: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 7%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.requirements {
+  background-color: #66daf92b;
+  text-align: center;
+}
+
+.requirements__title {
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.requirements__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.requirements__container__left {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  /* WEET NIET GOED WAAROM MIJN FLEX-GROW NIET WERKT*/
+  padding: 3% 2%;
+  width: 60%;
+  background: #002c89;
+  border-radius: 8px 0px 0px 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 188%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.requirements__container__right {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  /* HIER OOK NIET*/
+  background: #0062ab;
+  border-radius: 0px 8px 8px 0px;
+  padding: 4% 2%;
+  text-align: left;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.exquisite {
+  background-color: #66daf92b;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.exquisite__title {
+  padding-bottom: 4%;
+}
+
+.exquisite__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+}
+
+.exquisite__container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.exquisite__container__item__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 161%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #002c89;
+  border: 3px solid #002c89;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px 0px 0px 0px;
+  height: 150px;
+  padding: 5%;
+  text-align: left;
+}
+
+.exquisite__container__item__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.8;
+  text-align: left;
+  border-left: 3px solid #002c89;
+  border-bottom: 3px solid #002c89;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0px 0px 0px 12px;
+  padding: 8%;
+  height: 70%;
+}
+
+#exquisite-right-title {
+  border-radius: 0px 12px 0px 0px;
+}
+
+#exquisite-right-text {
+  border-right: 3px solid #002c89;
+  border-radius: 0 0 12px 0;
+}
+
+.certified {
+  text-align: center;
+}
+
+.certified__title {
+  padding-top: 7%;
+  margin: 0 30%;
+  padding-bottom: 2%;
+}
+
+.certified__description {
+  margin: 0 15%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.7;
+  padding-bottom: 3%;
+}
+
+.certified__subTitle {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #21455f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.certified__container {
+  padding-top: 3%;
+  padding-bottom: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.certified__container__text {
+  width: 40%;
+  padding: 2% 3%;
+  background: #002c89;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.certified__container__or {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  color: #21455f;
+  padding: 70px 0;
+}
+
+.certified__btn {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  background: #002c89;
+  border-radius: 4px;
+  padding: 2% 3%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#subTitle__description {
+  margin: 0 25%;
+}
+
+.contact {
+  padding-left: 10%;
+  background-color: #00094c;
+}
+
+.contact__title {
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.contact__description {
+  margin-right: 50%;
+  padding-bottom: 5%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 15%;
+}
+
+.contact__container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__container__item__img {
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 5%;
+  padding: 3%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.contact__container__item__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 45px 0;
+}
+
+.contact__container__item__flex__span {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 142%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.contact__container__item__flex__link {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 128%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact__title {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
